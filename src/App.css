@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: aqua;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 100px;
+  padding: 10px;
+  color: white;
+}
+
+.search{
+  margin-top: 25px;
+  font-size: 50px;
+  width: 1000px;
+}
+
+.buttons{
+  padding: 30px;
+  margin-left: 30px;  
+}
+
+.byName:hover,
+byName:focus{
+  cursor: pointer;
+  outline: 2px solid grey;
+  font-weight: bold; 
+}
+
+.byPrice:hover,
+byPrice:focus{
+  cursor: pointer;
+  outline: 2px solid grey;
+  font-weight: bold;
+}
+
+.byRank:hover,
+byRank:focus{
+  cursor: pointer;
+  outline: 2px solid grey;
+  font-weight: bold;
+}
+
+.search{
+  font-size: 50px;
+  width: 1000px;
+}
+
+.input:focus{
+  background-color: aqua;
+}
+
+.Main{
+  display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+
+.Main1{
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  padding: 5px;
+  margin: 15px;
+}
+
+.Main1:hover{ 
+  outline: 2px solid grey;
+  font-weight: bold;
+}
