@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-// import Buttons from './Components/Buttons';
-// import FetchData from './Components/FetchData';
 import Container from './Components/Container';
 import './App.css';
 import Footer from './Components/Footer'
@@ -9,7 +7,6 @@ class App extends Component {
 
   constructor(props) {
     super(props);
-    // const myData =[];
     this.state = {
         mainData: []
     }
